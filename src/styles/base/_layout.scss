@@ -1,0 +1,28 @@
+html {
+  font-size: 1px;
+}
+html,body {
+  height: 100%;
+}
+body {
+  font-size: 16rem;
+  font-family: var(--font-family);
+  background: #0C0F14;
+  color: #fff;
+  overflow: hidden;
+}
+a{
+  color: #fff;
+}
+#root {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin-inline: auto; 
+  overflow-x: hidden;
+}
+
+.main {
+  overflow-y: auto;
+  
+}
