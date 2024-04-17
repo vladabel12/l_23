@@ -1,0 +1,23 @@
+label {
+    border-radius: 15rem;
+    background: var(--form-background);
+    gap: 19rem;
+	display: flex;
+    padding: 13rem 18rem 12rem 18rem;
+    align-items: center;
+    margin-bottom: 28rem;
+}
+input {
+    border: none;
+    background: var(--form-background);
+    color: var(--header-color);
+    font-weight: 500;
+    font-size: 10rem;
+    line-height: 200%;
+    outline: none;
+    width: 100%;
+
+    &::placeholder {
+        color: var(--placeholder-color);
+    }
+}

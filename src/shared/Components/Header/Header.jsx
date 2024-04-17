@@ -10,7 +10,7 @@ export const Header = () => {
           <span className="icon-menu"></span>
         </div>
         <div className="user">
-          <span className="icon-coffee_2"></span>
+          <span className="icon-coffee_2 header-icon"></span>
         </div>
         {<HeaderMenu navIsActive={navIsActive} navClose={() => setNavIsActive(false)}/>}
       </div>

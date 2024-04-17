@@ -1,0 +1,28 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22rem 35rem;
+  }
+  
+  .sidebar-link {
+    font-size: 24rem;
+    color: red;
+    transition: .2s all ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+  
+    .sidebar-link__icon::before {
+      transition: var(--transition);
+    }
+  
+    &.active {
+      .sidebar-link__icon::before {
+        color: var(--second-color);
+      }
+    }
+  }
+  .icon-heart{
+    color: #4E5053;
+  }

@@ -1,0 +1,25 @@
+.home{
+    padding: 0 30rem;
+}
+.home-header{
+    font-weight: 600;
+    font-size: 28rem;
+    line-height: 129%;
+    color: var(--header-color);
+    max-width: 195rem;
+    margin-bottom: 28rem;
+}
+.coffee{
+    overflow-x: auto;
+    margin-bottom: 18rem;
+}
+.beans{
+    font-weight: 500;
+    font-size: 16rem;
+    line-height: 125%;
+    color: var(--header-color);
+    margin-bottom: 19rem;
+}
+.header, .sidebar{
+    display: flex;
+}

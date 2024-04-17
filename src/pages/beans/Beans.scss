@@ -1,0 +1,221 @@
+//.header, .sidebar{
+//    display: none;
+//}
+.heart{
+    color: #DC3535;
+    font-size: 19rem;
+}
+.left{
+    font-size: 21rem;
+    margin-inline: auto;
+}
+.product-main{
+    padding: 0 20rem;
+}
+.product{
+    margin: 0;
+    padding: 0;
+    &__image{
+        position: relative;
+        width: 100%;
+        background-size: cover;
+        height: 521rem;
+    }
+    &__buttons{
+        display: flex;
+        justify-content: space-between;
+        padding: 30rem 20rem;
+    }
+    &__footer{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 19rem 20rem 15rem 20rem;
+        border-radius: 25rem 25rem 0 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    &__description{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &__description-name{
+        font-weight: 600;
+        font-size: 20rem;
+        line-height: 100%;
+        margin-bottom: 2.29rem;
+    }
+    &__description-desc{
+        font-weight: 400;
+        font-size: 12rem;
+        line-height: 167%;
+        color: #aeaeae;
+    }
+    &__description-icons{
+        display: flex;
+        justify-content: space-between;
+        gap: 20rem;
+    }
+    &__description-icons-bean-icon, &__description-icons-location-icon{
+        border-radius: 10rem;
+        font-weight: 500;
+        font-size: 10rem;
+        line-height: 200%;
+        color: #aeaeae;
+        text-align: center;
+        background: #141921;
+        width: 56rem;
+        height: 56rem;
+        padding: 6rem;
+    }
+    &__mark{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__mark-info{
+        display: flex;
+        justify-content: space-between;
+        gap: 6rem;
+        align-items: center;
+        margin-top: 11rem;
+    }
+    &__mark-text{
+        font-weight: 600;
+        font-size: 16rem;
+        line-height: 125%;
+    }
+    &__mark-ending{
+        font-weight: 400;
+        font-size: 10rem;
+        line-height: 200%;
+        color: #aeaeae;
+    }
+    &__mark-icon{
+        border-radius: 10rem;
+        background: #141921;
+        font-weight: 500;
+        font-size: 10rem;
+        line-height: 200%;
+        color: #aeaeae;
+        padding: 12rem 22rem;
+        margin-top: 13.3rem;
+    }
+    &__link__icon{
+        font-size: 23rem;
+    }
+    &__price{
+        margin-top: 28rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__price-text{
+        font-weight: 500;
+        font-size: 12rem;
+        line-height: 167%;
+        color: var(--text-color);
+        margin-bottom: 3rem;
+    }
+    &__price-main{
+        font-weight: 600;
+        font-size: 20rem;
+        line-height: 100%;
+        color: var(--header-color);
+    }
+    &__price-button{
+        cursor: pointer;
+        border: none;
+        background: var(--second-color);
+        font-weight: 600;
+        font-size: 16rem;
+        line-height: 125%;
+        color: var(--header-color);
+        padding: 20rem 73rem;
+        max-width: 240rem;
+        border-radius: 20rem;
+        margin-bottom: 8rem;
+        transition: .2s all ease-in-out;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+.button-left{
+    cursor: pointer;
+    width: 33.43rem;
+    border: 1px solid var(--border-color);
+    border-radius: 10rem;
+    background: linear-gradient(137deg, #21262e 0%, #0c0f14 100%);
+    padding: 6.6rem;
+}
+
+.button-heart{
+    border: 1px solid var(--border-color);
+    border-radius: 10rem;
+    background: linear-gradient(137deg, #21262e 0%, #0c0f14 100%);
+    padding: 7.8rem;
+}
+.title{
+    font-weight: 600;
+    font-size: 14rem;
+    line-height: 143%;
+    color: var(--text-color);
+    margin-top: 19.8rem;
+    margin-bottom: 15rem;
+}
+.description{
+    font-weight: 400;
+    font-size: 12rem;
+    line-height: 167%;
+    color: var(--header-color);
+    margin-bottom: 8rem;
+}
+.title-size{
+    font-weight: 600;
+    font-size: 14rem;
+    line-height: 143%;
+    color: var(--text-color);
+    margin-bottom: 12rem;
+}
+.sizes{
+    display: flex;
+    justify-content: space-between;
+    &__main{
+        font-weight: 500;
+        font-size: 12rem;
+        line-height: 167%;
+        color: var(--text-color);
+        padding: auto;
+        border-radius: 10rem;
+        background: var(--sizes-color);
+        width: 100rem;
+        height: 40rem;
+        border: 2px solid var(--sizes-color);
+        transition: .2s all ease-in-out;
+        &:hover{
+            color: var(--second-color);
+            border: 2px solid var(--second-color);
+        }
+    }
+    &__object{
+        transition: .2s all ease-in-out;
+        :hover{
+            transform: scale(1.1);
+        }
+    }
+}
+.dollar{
+    color: var(--second-color);
+}
+.icon-coffee, .icon-location{
+    font-size: 25rem;
+    color: #D17842;
+}
+.icon-coffee_2{
+    font-size: 32rem;
+    color: #D17842;
+}
+.icon-water{
+    font-size: 28rem;
+}
